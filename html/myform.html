@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     
-    <title>HTML Form</title>
+    <title>Document</title>
 </head>
 <body>
     <form>
         <label>first name</label>
-        <input type="text" id="first_name"><br><br>
+        <input type="text" id="first_name"><br/><br/>
 
         <label>last name</label>
-        <input type="text" id="last_name"><br><br>
+        <input type="text" id="last_name"><br/><br/>
 
-        <label>Gender:</label><br>
+        <label>Gender:</label><br/>
 
         <input type="radio" id="male" name="gender" value="Male">
-        <label for="male">Male</label><br>
+        <label for="male">Male</label><br/>
 
         <input type="radio" id="female" name="gender" value="Female">
-        <label for="female">Female</label><br>
+        <label for="female">Female</label><br/>
 
         <input type="radio" id="other" name="gender" value="Other">
-        <label for="other">Other</label><br><br>
+        <label for="other">Other</label><br/><br/>
 
         <label for="Car">Choose a car</label>
         <select id="Car" name="Car">
@@ -30,23 +30,29 @@
             <option value="audi">AUDI</option>
             <option value="jaguar">JAGUAR</option>
             <option value="benz">BENZ</option>
-            <option value="tata">TATA</option>
         </select><br><br>
 
-        <label>hobby:</label><br>
+        <label>hobby:</label><br/>
 
         <input type="checkbox" id="book" name="book" value="Reading Books">
-        <label for="book">Reading Books</label><br>
+        <label for="book">Reading Books</label><br/>
 
         <input type="checkbox" id="music" name="music" value="Listening Music">
-        <label for="music">Listening Music</label>,<br>
+        <label for="music">Listening Music</label>,<br/>
 
         <input type="checkbox" id="newspaper" name="newspaper" value="Reading NewsPeper">
         <label for="newspaper">Reading NewsPeper</label><br>
 
-        <input type="checkbox" id="phone" name="phone" value="Watching videos">
-        <label for="phone">Watching videos</label><br>
+        <label>Write about your self</label>
+        <textarea cols="20" rows="10"></textarea><br/>
 
+        <label>Choose color</label>
+        <input type="color"><br/>
+
+        <label>Birth of Date</label>
+        <input type="date"><br/>
+
+        <input type="button" value="Click">
         <input type="submit">
     </form>
 </body>
