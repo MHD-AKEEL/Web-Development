@@ -2,14 +2,23 @@ h1{
     color: red;
     text-align: center;
 }
+
 h2{
     color: yellow;
 }
+
 h3{
     color: blue;
-    border: 2px dotted green;
-    
+    border: 2px dotted green;   
 }
+
+h4{
+    text-align: center;
+    color: chartreuse;
+    background-color: rgb(255, 20, 20);
+    border: 10px solid;
+}
+
 strong{
     border: solid;
     background-color: rgb(127, 251, 255);
@@ -17,4 +26,7 @@ strong{
 }
 a{
      margin: 100px;
+     background-color: lime;
+     color: deeppink;
+
 }
