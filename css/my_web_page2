@@ -20,12 +20,16 @@
     <u>Student</u><br/>
 
     <a href="https://www.bit.lk/">BIT</a><br/>
-        <ol>
+       <div>
+            <ol>
                 <li>hi how <mark>are</mark> you</li>
                 <li>where are <del>you</del> from</li>
                 <li>welcome to the <del>class</del> <ins>office</ins></li>
                 <li>good night</li><br/>
 
-        </ol>
+            </ol>
+        </div>
+
+
 </body>
 </html>
