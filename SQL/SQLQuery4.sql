@@ -13,3 +13,5 @@ SELECT * FROM Students;
 
 SELECT * FROM Students WHERE age >26 and address='Jaffna';
 SELECT * FROM Students WHERE age >26 or address='Jaffna';
+
+SELECT * FROM Students WHERE address 
